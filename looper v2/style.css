@@ -1,5 +1,6 @@
 body {
   background-image: url("./cube.jpg");
+  background-color: #191941;
   background-clip: border-box;
   background-size: cover;
   background-position-y: -65px;
@@ -17,76 +18,743 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 500px;
-  width: 500px;
+  height: 705.59px;
+  width: 209.68px;
   border: 1px solid #bbb;
+  scale: 0.7;
   border-radius: 0;
   border-radius: 50%;
-  animation-duration: 8s;
-  animation-iteration-count: infinite;
-  animation-fill-mode: both;
-  animation-timing-function: linear;
-  animation-direction: normal;
+
   box-sizing: border-box;
 }
-
-.a {
-  animation-name: twirl-a;
+.n1 {
+  transform: rotateZ(3deg);
+  animation: twirl1 8s both infinite linear normal;
 }
 
-.b {
-  animation-name: twirl-b;
+.n2 {
+  transform: rotateZ(6deg);
+  animation: twirl2 8s both infinite linear normal;
+}
+.n3 {
+  transform: rotateZ(9deg);
+  animation: twirl3 8s both infinite linear normal;
+}
+.n4 {
+  transform: rotateZ(12deg);
+  animation: twirl4 8s both infinite linear normal;
+}
+.n5 {
+  transform: rotateZ(15deg);
+  animation: twirl5 8s both infinite linear normal;
+}
+.n6 {
+  transform: rotateZ(18deg);
+  animation: twirl6 8s both infinite linear normal;
+}
+.n7 {
+  transform: rotateZ(21deg);
+  animation: twirl7 8s both infinite linear normal;
+}
+.n8 {
+  transform: rotateZ(24deg);
+  animation: twirl8 8s both infinite linear normal;
+}
+.n9 {
+  transform: rotateZ(27deg);
+  animation: twirl9 8s both infinite linear normal;
+}
+.n10 {
+  transform: rotateZ(30deg);
+  animation: twirl10 8s both infinite linear normal;
+}
+.n11 {
+  transform: rotateZ(33deg);
+  animation: twirl11 8s both infinite linear normal;
+}
+.n12 {
+  transform: rotateZ(36deg);
+  animation: twirl12 8s both infinite linear normal;
+}
+.n13 {
+  transform: rotateZ(39deg);
+  animation: twirl13 8s both infinite linear normal;
+}
+.n14 {
+  transform: rotateZ(42deg);
+  animation: twirl14 8s both infinite linear normal;
+}
+.n15 {
+  transform: rotateZ(45deg);
+  animation: twirl15 8s both infinite linear normal;
+}
+.n16 {
+  transform: rotateZ(48deg);
+  animation: twirl16 8s both infinite linear normal;
+}
+.n17 {
+  transform: rotateZ(51deg);
+  animation: twirl17 8s both infinite linear normal;
+}
+.n18 {
+  transform: rotateZ(54deg);
+  animation: twirl18 8s both infinite linear normal;
+}
+.n19 {
+  transform: rotateZ(57deg);
+  animation: twirl19 8s both infinite linear normal;
 }
 
-.c {
-  animation-name: twirl-c;
-}
-.d {
-  animation-name: twirl-d;
+.n20 {
+  transform: rotateZ(60deg);
+  animation: twirl20 8s both infinite linear normal;
 }
 
-@keyframes twirl-a {
+.n21 {
+  transform: rotateZ(63deg);
+  animation: twirl21 8s both infinite linear normal;
+}
+
+.n22 {
+  transform: rotateZ(66deg);
+  animation: twirl22 8s both infinite linear normal;
+}
+
+.n23 {
+  transform: rotateZ(69deg);
+  animation: twirl23 8s both infinite linear normal;
+}
+
+.n24 {
+  transform: rotateZ(72deg);
+  animation: twirl24 8s both infinite linear normal;
+}
+
+.n25 {
+  transform: rotateZ(75deg);
+  animation: twirl25 8s both infinite linear normal;
+}
+
+.n26 {
+  transform: rotateZ(78deg);
+  animation: twirl26 8s both infinite linear normal;
+}
+
+.n27 {
+  transform: rotateZ(81deg);
+  animation: twirl27 8s both infinite linear normal;
+}
+
+.n28 {
+  transform: rotateZ(84deg);
+  animation: twirl28 8s both infinite linear normal;
+}
+
+.n29 {
+  transform: rotateZ(87deg);
+  animation: twirl29 8s both infinite linear normal;
+}
+.n30 {
+  transform: rotateZ(90deg);
+  animation: twirl30 8s both infinite linear normal;
+}
+
+@keyframes twirl1 {
   0% {
-    transform: scale(0.6) rotate3D(1, 1, 1, 0deg);
   }
+
+  25% {
+    transform: rotateZ(-90deg);
+  }
+
   50% {
-    transform: scale(1) rotate3D(1, 1, 1, 380deg);
+    transform: rotateZ(3deg);
   }
+
+  75% {
+    transform: rotateZ(90deg);
+  }
+
   100% {
-    transform: scale(0.6) rotate3D(1, 1, 1, 1440deg);
+    transform: rotateZ(3deg);
   }
 }
 
-@keyframes twirl-b {
+@keyframes twirl2 {
   0% {
-    transform: scale(0.6) rotate3D(1, 1, 1, 0deg);
   }
+
+  25% {
+    transform: rotateZ(-90deg);
+  }
+
   50% {
-    transform: scale(1) rotate3D(1, 1, 1, 470deg);
+    transform: rotateZ(6deg);
   }
+  75% {
+    transform: rotateZ(90deg);
+  }
+
   100% {
-    transform: scale(0.6) rotate3D(1, 1, 1, 1440deg);
+    transform: rotateZ(6deg);
   }
 }
-@keyframes twirl-c {
+
+@keyframes twirl3 {
   0% {
-    transform: scale(0.6) rotate3D(1, 1, 1, 0deg);
   }
+
+  25% {
+    transform: rotateZ(-90deg);
+  }
+
   50% {
-    transform: scale(1) rotate3D(1, 1, 1, 560deg);
+    transform: rotateZ(9deg);
   }
+  75% {
+    transform: rotateZ(90deg);
+  }
+
   100% {
-    transform: scale(0.6) rotate3D(1, 1, 1, 1440deg);
+    transform: rotateZ(9deg);
   }
 }
-@keyframes twirl-d {
+
+@keyframes twirl4 {
   0% {
-    transform: scale(0.6) rotate3D(1, 1, 1, 0deg);
   }
+
+  25% {
+    transform: rotateZ(-90deg);
+  }
+
   50% {
-    transform: scale(1) rotate3D(1, 1, 1, 630deg);
+    transform: rotateZ(12deg);
   }
+  75% {
+    transform: rotateZ(90deg);
+  }
+
   100% {
-    transform: scale(0.6) rotate3D(1, 1, 1, 1440deg);
+    transform: rotateZ(12deg);
+  }
+}
+
+@keyframes twirl5 {
+  0% {
+  }
+
+  25% {
+    transform: rotateZ(-90deg);
+  }
+
+  50% {
+    transform: rotateZ(15deg);
+  }
+  75% {
+    transform: rotateZ(90deg);
+  }
+
+  100% {
+    transform: rotateZ(15deg);
+  }
+}
+
+@keyframes twirl6 {
+  0% {
+  }
+
+  25% {
+    transform: rotateZ(-90deg);
+  }
+
+  50% {
+    transform: rotateZ(18deg);
+  }
+  75% {
+    transform: rotateZ(90deg);
+  }
+
+  100% {
+    transform: rotateZ(18deg);
+  }
+}
+
+@keyframes twirl7 {
+  0% {
+  }
+
+  25% {
+    transform: rotateZ(-90deg);
+  }
+
+  50% {
+    transform: rotateZ(21deg);
+  }
+  75% {
+    transform: rotateZ(90deg);
+  }
+
+  100% {
+    transform: rotateZ(21deg);
+  }
+}
+
+@keyframes twirl8 {
+  0% {
+  }
+
+  25% {
+    transform: rotateZ(-90deg);
+  }
+
+  50% {
+    transform: rotateZ(24deg);
+  }
+  75% {
+    transform: rotateZ(90deg);
+  }
+
+  100% {
+    transform: rotateZ(24deg);
+  }
+}
+
+@keyframes twirl9 {
+  0% {
+  }
+
+  25% {
+    transform: rotateZ(-90deg);
+  }
+
+  50% {
+    transform: rotateZ(27deg);
+  }
+  75% {
+    transform: rotateZ(90deg);
+  }
+
+  100% {
+    transform: rotateZ(27deg);
+  }
+}
+
+@keyframes twirl10 {
+  0% {
+  }
+
+  25% {
+    transform: rotateZ(-90deg);
+  }
+
+  50% {
+    transform: rotateZ(30deg);
+  }
+  75% {
+    transform: rotateZ(90deg);
+  }
+
+  100% {
+    transform: rotateZ(30deg);
+  }
+}
+
+@keyframes twirl11 {
+  0% {
+  }
+
+  25% {
+    transform: rotateZ(-90deg);
+  }
+
+  50% {
+    transform: rotateZ(33deg);
+  }
+  75% {
+    transform: rotateZ(90deg);
+  }
+
+  100% {
+    transform: rotateZ(33deg);
+  }
+}
+
+@keyframes twirl12 {
+  0% {
+  }
+
+  25% {
+    transform: rotateZ(-90deg);
+  }
+
+  50% {
+    transform: rotateZ(36deg);
+  }
+  75% {
+    transform: rotateZ(90deg);
+  }
+
+  100% {
+    transform: rotateZ(36deg);
+  }
+}
+
+@keyframes twirl13 {
+  0% {
+  }
+
+  25% {
+    transform: rotateZ(-90deg);
+  }
+
+  50% {
+    transform: rotateZ(39deg);
+  }
+  75% {
+    transform: rotateZ(90deg);
+  }
+
+  100% {
+    transform: rotateZ(39deg);
+  }
+}
+
+@keyframes twirl14 {
+  0% {
+  }
+
+  25% {
+    transform: rotateZ(-90deg);
+  }
+
+  50% {
+    transform: rotateZ(42deg);
+  }
+  75% {
+    transform: rotateZ(90deg);
+  }
+
+  100% {
+    transform: rotateZ(42deg);
+  }
+}
+
+@keyframes twirl15 {
+  0% {
+  }
+
+  25% {
+    transform: rotateZ(-90deg);
+  }
+
+  50% {
+    transform: rotateZ(45deg);
+  }
+  75% {
+    transform: rotateZ(90deg);
+  }
+
+  100% {
+    transform: rotateZ(45deg);
+  }
+}
+
+@keyframes twirl16 {
+  0% {
+  }
+
+  25% {
+    transform: rotateZ(-90deg);
+  }
+
+  50% {
+    transform: rotateZ(48deg);
+  }
+  75% {
+    transform: rotateZ(90deg);
+  }
+
+  100% {
+    transform: rotateZ(48deg);
+  }
+}
+
+@keyframes twirl17 {
+  0% {
+  }
+
+  25% {
+    transform: rotateZ(-90deg);
+  }
+
+  50% {
+    transform: rotateZ(51deg);
+  }
+  75% {
+    transform: rotateZ(90deg);
+  }
+
+  100% {
+    transform: rotateZ(51deg);
+  }
+}
+
+@keyframes twirl18 {
+  0% {
+  }
+
+  25% {
+    transform: rotateZ(-90deg);
+  }
+
+  50% {
+    transform: rotateZ(54deg);
+  }
+  75% {
+    transform: rotateZ(90deg);
+  }
+
+  100% {
+    transform: rotateZ(54deg);
+  }
+}
+
+@keyframes twirl19 {
+  0% {
+  }
+
+  25% {
+    transform: rotateZ(-90deg);
+  }
+
+  50% {
+    transform: rotateZ(57deg);
+  }
+  75% {
+    transform: rotateZ(90deg);
+  }
+
+  100% {
+    transform: rotateZ(57deg);
+  }
+}
+@keyframes twirl20 {
+  0% {
+  }
+
+  25% {
+    transform: rotateZ(-90deg);
+  }
+
+  50% {
+    transform: rotateZ(60deg);
+  }
+  75% {
+    transform: rotateZ(90deg);
+  }
+
+  100% {
+    transform: rotateZ(60deg);
+  }
+}
+
+@keyframes twirl21 {
+  0% {
+  }
+
+  25% {
+    transform: rotateZ(-90deg);
+  }
+
+  50% {
+    transform: rotateZ(63deg);
+  }
+  75% {
+    transform: rotateZ(90deg);
+  }
+
+  100% {
+    transform: rotateZ(63deg);
+  }
+}
+
+@keyframes twirl22 {
+  0% {
+  }
+
+  25% {
+    transform: rotateZ(-90deg);
+  }
+
+  50% {
+    transform: rotateZ(66deg);
+  }
+  75% {
+    transform: rotateZ(90deg);
+  }
+
+  100% {
+    transform: rotateZ(66deg);
+  }
+}
+
+@keyframes twirl23 {
+  0% {
+  }
+
+  25% {
+    transform: rotateZ(-90deg);
+  }
+
+  50% {
+    transform: rotateZ(69deg);
+  }
+  75% {
+    transform: rotateZ(90deg);
+  }
+
+  100% {
+    transform: rotateZ(69deg);
+  }
+}
+
+@keyframes twirl24 {
+  0% {
+  }
+
+  25% {
+    transform: rotateZ(-90deg);
+  }
+
+  50% {
+    transform: rotateZ(72deg);
+  }
+  75% {
+    transform: rotateZ(90deg);
+  }
+
+  100% {
+    transform: rotateZ(72deg);
+  }
+}
+
+@keyframes twirl25 {
+  0% {
+  }
+
+  25% {
+    transform: rotateZ(-90deg);
+  }
+
+  50% {
+    transform: rotateZ(75deg);
+  }
+  75% {
+    transform: rotateZ(90deg);
+  }
+
+  100% {
+    transform: rotateZ(75deg);
+  }
+}
+
+@keyframes twirl26 {
+  0% {
+  }
+
+  25% {
+    transform: rotateZ(-90deg);
+  }
+
+  50% {
+    transform: rotateZ(78deg);
+  }
+  75% {
+    transform: rotateZ(90deg);
+  }
+
+  100% {
+    transform: rotateZ(78deg);
+  }
+}
+
+@keyframes twirl27 {
+  0% {
+  }
+
+  25% {
+    transform: rotateZ(-90deg);
+  }
+
+  50% {
+    transform: rotateZ(81deg);
+  }
+  75% {
+    transform: rotateZ(90deg);
+  }
+
+  100% {
+    transform: rotateZ(81deg);
+  }
+}
+
+@keyframes twirl28 {
+  0% {
+  }
+
+  25% {
+    transform: rotateZ(-90deg);
+  }
+
+  50% {
+    transform: rotateZ(84deg);
+  }
+  75% {
+    transform: rotateZ(90deg);
+  }
+
+  100% {
+    transform: rotateZ(84deg);
+  }
+}
+
+@keyframes twirl29 {
+  0% {
+  }
+
+  25% {
+    transform: rotateZ(-90deg);
+  }
+
+  50% {
+    transform: rotateZ(87deg);
+  }
+  75% {
+    transform: rotateZ(90deg);
+  }
+
+  100% {
+    transform: rotateZ(87deg);
+  }
+}
+
+@keyframes twirl30 {
+  0% {
+  }
+
+  25% {
+    transform: rotateZ(-90deg);
+  }
+
+  50% {
+    transform: rotateZ(90deg);
+  }
+  75% {
+    transform: rotateZ(90deg);
+  }
+
+  100% {
+    transform: rotateZ(90deg);
   }
 }
